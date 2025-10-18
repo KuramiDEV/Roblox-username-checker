@@ -17,3 +17,4 @@ pip install requests os colorama
 python3 main.py -- Linux
 python main.py -- Windows
 ```
+## Star, pls?
