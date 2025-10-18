@@ -118,7 +118,7 @@ def checar_lista():
     print(f"{bcolors.WARNING}Enter the path of the .txt file containing the names:{bcolors.RESETC}")
     path = input("> ").strip().strip('"')
 
-    if not os.path.isVALIDS_FILE(path):
+    if not os.path.isfile(path):
         print(f"{bcolors.FAIL}File not found.{bcolors.RESETC}")
         return
 
