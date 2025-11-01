@@ -180,6 +180,8 @@ def main():
         checar_lista()
     else:
         print(f"{bcolors.FAIL}Invalid option.{bcolors.RESETC}")
+        time.sleep(1)
+        main()
 
 main()
 
