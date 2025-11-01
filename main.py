@@ -38,7 +38,6 @@ terminal_name("Roblox username checker | by Kurami")
 
 VALIDS_FILE = 'valids.txt'
 BIRTHDAY = '1982-04-01'
-os.system('title Roblox username checker \ by Kurami')
 
 #############################
 ############COLORS###########
